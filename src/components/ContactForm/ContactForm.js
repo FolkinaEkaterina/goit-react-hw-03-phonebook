@@ -33,7 +33,6 @@ class Form extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label htmlFor={this.nameInputId}>
-          {' '}
           Name
           <InputStyled
             id={this.nameInputId}
